@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D69942CB213A78F700243212 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69942CA213A78F700243212 /* AppDelegate.swift */; };
+		D69942CD213A78F700243212 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69942CC213A78F700243212 /* ViewController.swift */; };
+		D69942D0213A78F700243212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69942CE213A78F700243212 /* Main.storyboard */; };
+		D69942D2213A78F800243212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69942D1213A78F800243212 /* Assets.xcassets */; };
+		D69942D5213A78F800243212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69942D3213A78F800243212 /* LaunchScreen.storyboard */; };
+		D69942E0213A78F800243212 /* SquamishKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69942DF213A78F800243212 /* SquamishKeyboardTests.swift */; };
+		D69942EB213A78F800243212 /* SquamishKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69942EA213A78F800243212 /* SquamishKeyboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D69942DC213A78F800243212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69942BF213A78F700243212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69942C6213A78F700243212;
+			remoteInfo = SquamishKeyboard;
+		};
+		D69942E7213A78F800243212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69942BF213A78F700243212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69942C6213A78F700243212;
+			remoteInfo = SquamishKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D69942C7213A78F700243212 /* SquamishKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquamishKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69942CA213A78F700243212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D69942CC213A78F700243212 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D69942CF213A78F700243212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D69942D1213A78F800243212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D69942D4213A78F800243212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D69942D6213A78F800243212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69942DB213A78F800243212 /* SquamishKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquamishKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69942DF213A78F800243212 /* SquamishKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquamishKeyboardTests.swift; sourceTree = "<group>"; };
+		D69942E1213A78F800243212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69942E6213A78F800243212 /* SquamishKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquamishKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69942EA213A78F800243212 /* SquamishKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquamishKeyboardUITests.swift; sourceTree = "<group>"; };
+		D69942EC213A78F800243212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D69942C4213A78F700243212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69942D8213A78F800243212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69942E3213A78F800243212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D69942BE213A78F700243212 = {
+			isa = PBXGroup;
+			children = (
+				D69942C9213A78F700243212 /* SquamishKeyboard */,
+				D69942DE213A78F800243212 /* SquamishKeyboardTests */,
+				D69942E9213A78F800243212 /* SquamishKeyboardUITests */,
+				D69942C8213A78F700243212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D69942C8213A78F700243212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D69942C7213A78F700243212 /* SquamishKeyboard.app */,
+				D69942DB213A78F800243212 /* SquamishKeyboardTests.xctest */,
+				D69942E6213A78F800243212 /* SquamishKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D69942C9213A78F700243212 /* SquamishKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D69942CA213A78F700243212 /* AppDelegate.swift */,
+				D69942CC213A78F700243212 /* ViewController.swift */,
+				D69942CE213A78F700243212 /* Main.storyboard */,
+				D69942D1213A78F800243212 /* Assets.xcassets */,
+				D69942D3213A78F800243212 /* LaunchScreen.storyboard */,
+				D69942D6213A78F800243212 /* Info.plist */,
+			);
+			path = SquamishKeyboard;
+			sourceTree = "<group>";
+		};
+		D69942DE213A78F800243212 /* SquamishKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				D69942DF213A78F800243212 /* SquamishKeyboardTests.swift */,
+				D69942E1213A78F800243212 /* Info.plist */,
+			);
+			path = SquamishKeyboardTests;
+			sourceTree = "<group>";
+		};
+		D69942E9213A78F800243212 /* SquamishKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D69942EA213A78F800243212 /* SquamishKeyboardUITests.swift */,
+				D69942EC213A78F800243212 /* Info.plist */,
+			);
+			path = SquamishKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D69942C6213A78F700243212 /* SquamishKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69942EF213A78F800243212 /* Build configuration list for PBXNativeTarget "SquamishKeyboard" */;
+			buildPhases = (
+				D69942C3213A78F700243212 /* Sources */,
+				D69942C4213A78F700243212 /* Frameworks */,
+				D69942C5213A78F700243212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquamishKeyboard;
+			productName = SquamishKeyboard;
+			productReference = D69942C7213A78F700243212 /* SquamishKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D69942DA213A78F800243212 /* SquamishKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69942F2213A78F800243212 /* Build configuration list for PBXNativeTarget "SquamishKeyboardTests" */;
+			buildPhases = (
+				D69942D7213A78F800243212 /* Sources */,
+				D69942D8213A78F800243212 /* Frameworks */,
+				D69942D9213A78F800243212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69942DD213A78F800243212 /* PBXTargetDependency */,
+			);
+			name = SquamishKeyboardTests;
+			productName = SquamishKeyboardTests;
+			productReference = D69942DB213A78F800243212 /* SquamishKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D69942E5213A78F800243212 /* SquamishKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69942F5213A78F800243212 /* Build configuration list for PBXNativeTarget "SquamishKeyboardUITests" */;
+			buildPhases = (
+				D69942E2213A78F800243212 /* Sources */,
+				D69942E3213A78F800243212 /* Frameworks */,
+				D69942E4213A78F800243212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69942E8213A78F800243212 /* PBXTargetDependency */,
+			);
+			name = SquamishKeyboardUITests;
+			productName = SquamishKeyboardUITests;
+			productReference = D69942E6213A78F800243212 /* SquamishKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D69942BF213A78F700243212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Victor Temprano";
+				TargetAttributes = {
+					D69942C6213A78F700243212 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D69942DA213A78F800243212 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D69942C6213A78F700243212;
+					};
+					D69942E5213A78F800243212 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D69942C6213A78F700243212;
+					};
+				};
+			};
+			buildConfigurationList = D69942C2213A78F700243212 /* Build configuration list for PBXProject "SquamishKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D69942BE213A78F700243212;
+			productRefGroup = D69942C8213A78F700243212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D69942C6213A78F700243212 /* SquamishKeyboard */,
+				D69942DA213A78F800243212 /* SquamishKeyboardTests */,
+				D69942E5213A78F800243212 /* SquamishKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D69942C5213A78F700243212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69942D5213A78F800243212 /* LaunchScreen.storyboard in Resources */,
+				D69942D2213A78F800243212 /* Assets.xcassets in Resources */,
+				D69942D0213A78F700243212 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69942D9213A78F800243212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69942E4213A78F800243212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D69942C3213A78F700243212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69942CD213A78F700243212 /* ViewController.swift in Sources */,
+				D69942CB213A78F700243212 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69942D7213A78F800243212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69942E0213A78F800243212 /* SquamishKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69942E2213A78F800243212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69942EB213A78F800243212 /* SquamishKeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D69942DD213A78F800243212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69942C6213A78F700243212 /* SquamishKeyboard */;
+			targetProxy = D69942DC213A78F800243212 /* PBXContainerItemProxy */;
+		};
+		D69942E8213A78F800243212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69942C6213A78F700243212 /* SquamishKeyboard */;
+			targetProxy = D69942E7213A78F800243212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D69942CE213A78F700243212 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69942CF213A78F700243212 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D69942D3213A78F800243212 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69942D4213A78F800243212 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D69942ED213A78F800243212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D69942EE213A78F800243212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D69942F0213A78F800243212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42CQ2PYS26;
+				INFOPLIST_FILE = SquamishKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapster.SquamishKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D69942F1213A78F800243212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42CQ2PYS26;
+				INFOPLIST_FILE = SquamishKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapster.SquamishKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D69942F3213A78F800243212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42CQ2PYS26;
+				INFOPLIST_FILE = SquamishKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapster.SquamishKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquamishKeyboard.app/SquamishKeyboard";
+			};
+			name = Debug;
+		};
+		D69942F4213A78F800243212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42CQ2PYS26;
+				INFOPLIST_FILE = SquamishKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapster.SquamishKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquamishKeyboard.app/SquamishKeyboard";
+			};
+			name = Release;
+		};
+		D69942F6213A78F800243212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42CQ2PYS26;
+				INFOPLIST_FILE = SquamishKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapster.SquamishKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SquamishKeyboard;
+			};
+			name = Debug;
+		};
+		D69942F7213A78F800243212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42CQ2PYS26;
+				INFOPLIST_FILE = SquamishKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapster.SquamishKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SquamishKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D69942C2213A78F700243212 /* Build configuration list for PBXProject "SquamishKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69942ED213A78F800243212 /* Debug */,
+				D69942EE213A78F800243212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69942EF213A78F800243212 /* Build configuration list for PBXNativeTarget "SquamishKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69942F0213A78F800243212 /* Debug */,
+				D69942F1213A78F800243212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69942F2213A78F800243212 /* Build configuration list for PBXNativeTarget "SquamishKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69942F3213A78F800243212 /* Debug */,
+				D69942F4213A78F800243212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69942F5213A78F800243212 /* Build configuration list for PBXNativeTarget "SquamishKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69942F6213A78F800243212 /* Debug */,
+				D69942F7213A78F800243212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D69942BF213A78F700243212 /* Project object */;
+}
