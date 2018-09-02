@@ -14,6 +14,8 @@
 		D69942D5213A78F800243212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69942D3213A78F800243212 /* LaunchScreen.storyboard */; };
 		D69942E0213A78F800243212 /* SquamishKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69942DF213A78F800243212 /* SquamishKeyboardTests.swift */; };
 		D69942EB213A78F800243212 /* SquamishKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69942EA213A78F800243212 /* SquamishKeyboardUITests.swift */; };
+		D69942FF213A791F00243212 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69942FE213A791F00243212 /* KeyboardViewController.swift */; };
+		D6994303213A791F00243212 /* Squamish.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D69942FC213A791F00243212 /* Squamish.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +33,28 @@
 			remoteGlobalIDString = D69942C6213A78F700243212;
 			remoteInfo = SquamishKeyboard;
 		};
+		D6994301213A791F00243212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69942BF213A78F700243212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69942FB213A791F00243212;
+			remoteInfo = Squamish;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D6994307213A791F00243212 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D6994303213A791F00243212 /* Squamish.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D69942C7213A78F700243212 /* SquamishKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquamishKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +70,9 @@
 		D69942E6213A78F800243212 /* SquamishKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquamishKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69942EA213A78F800243212 /* SquamishKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquamishKeyboardUITests.swift; sourceTree = "<group>"; };
 		D69942EC213A78F800243212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69942FC213A791F00243212 /* Squamish.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Squamish.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69942FE213A791F00243212 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		D6994300213A791F00243212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +97,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D69942F9213A791F00243212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +113,7 @@
 				D69942C9213A78F700243212 /* SquamishKeyboard */,
 				D69942DE213A78F800243212 /* SquamishKeyboardTests */,
 				D69942E9213A78F800243212 /* SquamishKeyboardUITests */,
+				D69942FD213A791F00243212 /* Squamish */,
 				D69942C8213A78F700243212 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +124,7 @@
 				D69942C7213A78F700243212 /* SquamishKeyboard.app */,
 				D69942DB213A78F800243212 /* SquamishKeyboardTests.xctest */,
 				D69942E6213A78F800243212 /* SquamishKeyboardUITests.xctest */,
+				D69942FC213A791F00243212 /* Squamish.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +160,15 @@
 			path = SquamishKeyboardUITests;
 			sourceTree = "<group>";
 		};
+		D69942FD213A791F00243212 /* Squamish */ = {
+			isa = PBXGroup;
+			children = (
+				D69942FE213A791F00243212 /* KeyboardViewController.swift */,
+				D6994300213A791F00243212 /* Info.plist */,
+			);
+			path = Squamish;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +179,12 @@
 				D69942C3213A78F700243212 /* Sources */,
 				D69942C4213A78F700243212 /* Frameworks */,
 				D69942C5213A78F700243212 /* Resources */,
+				D6994307213A791F00243212 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D6994302213A791F00243212 /* PBXTargetDependency */,
 			);
 			name = SquamishKeyboard;
 			productName = SquamishKeyboard;
@@ -181,6 +227,23 @@
 			productReference = D69942E6213A78F800243212 /* SquamishKeyboardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D69942FB213A791F00243212 /* Squamish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6994304213A791F00243212 /* Build configuration list for PBXNativeTarget "Squamish" */;
+			buildPhases = (
+				D69942F8213A791F00243212 /* Sources */,
+				D69942F9213A791F00243212 /* Frameworks */,
+				D69942FA213A791F00243212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Squamish;
+			productName = Squamish;
+			productReference = D69942FC213A791F00243212 /* Squamish.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +265,9 @@
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = D69942C6213A78F700243212;
 					};
+					D69942FB213A791F00243212 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 				};
 			};
 			buildConfigurationList = D69942C2213A78F700243212 /* Build configuration list for PBXProject "SquamishKeyboard" */;
@@ -220,6 +286,7 @@
 				D69942C6213A78F700243212 /* SquamishKeyboard */,
 				D69942DA213A78F800243212 /* SquamishKeyboardTests */,
 				D69942E5213A78F800243212 /* SquamishKeyboardUITests */,
+				D69942FB213A791F00243212 /* Squamish */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +310,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D69942E4213A78F800243212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69942FA213A791F00243212 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,6 +351,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D69942F8213A791F00243212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69942FF213A791F00243212 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +371,11 @@
 			isa = PBXTargetDependency;
 			target = D69942C6213A78F700243212 /* SquamishKeyboard */;
 			targetProxy = D69942E7213A78F800243212 /* PBXContainerItemProxy */;
+		};
+		D6994302213A791F00243212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69942FB213A791F00243212 /* Squamish */;
+			targetProxy = D6994301213A791F00243212 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -429,6 +516,7 @@
 		D69942F0213A78F800243212 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42CQ2PYS26;
@@ -447,6 +535,7 @@
 		D69942F1213A78F800243212 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42CQ2PYS26;
@@ -544,6 +633,44 @@
 			};
 			name = Release;
 		};
+		D6994305213A791F00243212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42CQ2PYS26;
+				INFOPLIST_FILE = Squamish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapster.SquamishKeyboard.Squamish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6994306213A791F00243212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42CQ2PYS26;
+				INFOPLIST_FILE = Squamish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapster.SquamishKeyboard.Squamish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,6 +706,15 @@
 			buildConfigurations = (
 				D69942F6213A78F800243212 /* Debug */,
 				D69942F7213A78F800243212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6994304213A791F00243212 /* Build configuration list for PBXNativeTarget "Squamish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6994305213A791F00243212 /* Debug */,
+				D6994306213A791F00243212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
